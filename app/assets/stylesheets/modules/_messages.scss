@@ -22,20 +22,18 @@
     color: white;
     &__user__name{
       justify-content: left;
+    }
+    &--icon{
+      display: flex;
+        a{
+        text-decoration: none;
+        .icon{
+        color: white;
+        margin-left:5px;
+       }
+      }
+     }
     
-    }
-  }
-}
-
-.side__header__box--icon{
-  justify-content: right;
-  display: flex;
-    a{
-     text-decoration: none;
-    .icon{
-    color: white;
-    margin-left:5px;
-    }
   }
 }
 
