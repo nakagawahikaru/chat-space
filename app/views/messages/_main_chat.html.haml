@@ -23,8 +23,8 @@
   .message__form
     .new__message
       .input__box
-        %input.input__box__text{:placeholder => "type a message"}
+        %input.input__box__text{placeholder: "type a message"}
         %label.input__box__image
           = icon('fas', 'image')
-          %input.input__box__image__file{:type => "file", :name => "message[image]", :id => "message_image"}
-      %input.input__submit__btn{:type => "submit", :name => "commit", :value => "Send"}
+          %input.input__box__image__file{type: "file", name:  "message[image]", id: "message_image"}
+      %input.input__submit__btn{type: "submit", name: "commit", value: "Send"}
