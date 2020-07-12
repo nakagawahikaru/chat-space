@@ -1,0 +1,16 @@
+.chat__side
+  .side__header
+    .side__header__box
+      %p.side__header__box__user__name rei
+      %ul.side__header__box--icon
+        %li.side_header__box--icon__new__group
+        = link_to "#"do
+          = icon('fa', 'edit', class:"icon")
+        %li.side__header__box--icon__edit  
+        = link_to "#" do
+          = icon('fas', 'cog' , class:"icon")
+       
+  .side__groups
+    = link_to "#" do
+      %p.side__group__group__name techcamp
+      %p.side__group__message まだメッセージはありません
